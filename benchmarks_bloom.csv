@@ -1,0 +1,6 @@
+structure,target_fpr,observed_fpr,m_bits,k_hashes,memory_bytes,n
+BloomFilter,0.001,0.0008,143776,10,17972,10000
+BloomFilter,0.005,0.00585,110278,8,13785,10000
+BloomFilter,0.01,0.00985,95851,7,11982,10000
+BloomFilter,0.05,0.0498,62353,4,7795,10000
+BloomFilter,0.1,0.1031,47926,3,5991,10000

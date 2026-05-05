@@ -1,0 +1,73 @@
+structure,implementation,n,operation,elapsed_ms
+HashMap,Custom,100,insert,0.16800002777017653
+HashMap,stdlib (dict),100,insert,0.005099980626255274
+HashMap,Custom,100,lookup,0.04260000423528254
+HashMap,stdlib (dict),100,lookup,0.0027999922167509794
+HashMap,Custom,500,insert,0.6618000043090433
+HashMap,stdlib (dict),500,insert,0.017099984688684344
+HashMap,Custom,500,lookup,0.18879998242482543
+HashMap,stdlib (dict),500,lookup,0.011000025551766157
+HashMap,Custom,1000,insert,1.3481999922078103
+HashMap,stdlib (dict),1000,insert,0.034199998481199145
+HashMap,Custom,1000,lookup,0.37299998803064227
+HashMap,stdlib (dict),1000,lookup,0.02169999061152339
+HashMap,Custom,5000,insert,6.809899990912527
+HashMap,stdlib (dict),5000,insert,0.18279999494552612
+HashMap,Custom,5000,lookup,0.43360001291148365
+HashMap,stdlib (dict),5000,lookup,0.02509998739697039
+HashMap,Custom,10000,insert,13.61300001735799
+HashMap,stdlib (dict),10000,insert,0.3831000067293644
+HashMap,Custom,10000,lookup,0.42490000487305224
+HashMap,stdlib (dict),10000,lookup,0.025899993488565087
+HashMap,Custom,50000,insert,95.22109999670647
+HashMap,stdlib (dict),50000,insert,3.24469999759458
+HashMap,Custom,50000,lookup,0.3758000093512237
+HashMap,stdlib (dict),50000,lookup,0.03190001007169485
+SkipList,Custom,100,insert,0.142700009746477
+SkipList,stdlib (sorted list + bisect),100,insert,0.007700000423938036
+SkipList,Custom,100,lookup,0.07229999755509198
+SkipList,stdlib (sorted list + bisect),100,lookup,0.007200025720521808
+SkipList,Custom,500,insert,0.7861999911256135
+SkipList,stdlib (sorted list + bisect),500,insert,0.08289999095723033
+SkipList,Custom,500,lookup,0.44440000783652067
+SkipList,stdlib (sorted list + bisect),500,lookup,0.06910000229254365
+SkipList,Custom,1000,insert,1.8318999791517854
+SkipList,stdlib (sorted list + bisect),1000,insert,0.1686000032350421
+SkipList,Custom,1000,lookup,1.0313999955542386
+SkipList,stdlib (sorted list + bisect),1000,lookup,0.12539999443106353
+SkipList,Custom,5000,insert,11.18309999583289
+SkipList,stdlib (sorted list + bisect),5000,insert,2.149899984942749
+SkipList,Custom,5000,lookup,1.3550000148825347
+SkipList,stdlib (sorted list + bisect),5000,lookup,0.15090001397766173
+SkipList,Custom,10000,insert,24.951200000941753
+SkipList,stdlib (sorted list + bisect),10000,insert,8.36360000539571
+SkipList,Custom,10000,lookup,1.5032000083010644
+SkipList,stdlib (sorted list + bisect),10000,lookup,0.16309999045915902
+SkipList,Custom,50000,insert,144.8849999869708
+SkipList,stdlib (sorted list + bisect),50000,insert,165.99879998830147
+SkipList,Custom,50000,lookup,1.7789000121410936
+SkipList,stdlib (sorted list + bisect),50000,lookup,0.22230000467970967
+Trie,Custom,100,insert,0.12090001837350428
+Trie,stdlib (sorted list),100,insert,0.007099995855242014
+Trie,Custom,100,prefix_lookup,0.016799982404336333
+Trie,stdlib (sorted list),100,prefix_lookup,0.012999982573091984
+Trie,Custom,500,insert,1.0353999969083816
+Trie,stdlib (sorted list),500,insert,0.05740000051446259
+Trie,Custom,500,prefix_lookup,0.1024999946821481
+Trie,stdlib (sorted list),500,prefix_lookup,0.0892000098247081
+Trie,Custom,1000,insert,1.5993000124581158
+Trie,stdlib (sorted list),1000,insert,0.11309998808428645
+Trie,Custom,1000,prefix_lookup,0.16690001939423382
+Trie,stdlib (sorted list),1000,prefix_lookup,0.20280000171624124
+Trie,Custom,5000,insert,9.322800004156306
+Trie,stdlib (sorted list),5000,insert,0.8188999781850725
+Trie,Custom,5000,prefix_lookup,0.205100019229576
+Trie,stdlib (sorted list),5000,prefix_lookup,0.3183000080753118
+Trie,Custom,10000,insert,21.054300013929605
+Trie,stdlib (sorted list),10000,insert,1.9388000073377043
+Trie,Custom,10000,prefix_lookup,0.16679998952895403
+Trie,stdlib (sorted list),10000,prefix_lookup,0.2548999909777194
+Trie,Custom,50000,insert,194.60060002165847
+Trie,stdlib (sorted list),50000,insert,12.020800000755116
+Trie,Custom,50000,prefix_lookup,0.17179999849759042
+Trie,stdlib (sorted list),50000,prefix_lookup,0.30700000934302807
