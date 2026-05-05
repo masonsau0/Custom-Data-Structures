@@ -1,6 +1,6 @@
 # Custom Data Structures
 
-**[Live demo](LIVE_DEMO_URL_PLACEHOLDER)**: runs in the browser, no install required.
+**[Live demo](https://mason-custom-data-structures.streamlit.app/)**: runs in the browser, no install required.
 
 Pure-Python from-scratch implementations of five classic data
 structures — **HashMap**, **Skip List**, **LRU Cache**, **Bloom
